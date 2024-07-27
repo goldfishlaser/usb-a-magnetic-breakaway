@@ -1,6 +1,6 @@
 # usb-a-magnetic-breakaway
 
-This repo is for documenting and providing the design requirements for an open-source USB-A magnetic breakaway connector. Originally created to be a solution for BusKill cables. I am no longer directly associated with the Buskill project, but welcome the continued use of these files towards those ends. Perhaps you have another reason you want to quickly magnetically detach a USB? Then here's your thing.  This project is a Work In Progress and it welcomes contributors. 
+This repo is for documenting and providing the design requirements for an open-source USB-A magnetic breakaway connector. Originally created to be a solution for BusKill cables. I am no longer directly associated with the BusKill project, but welcome the continued use of these files towards those ends. Perhaps you have another reason you want to quickly magnetically detach a USB? Then here's your thing.  This project is a Work In Progress and it welcomes contributors. 
 
 ##  What's New?
 
