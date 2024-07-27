@@ -1,16 +1,12 @@
 /*
 
-__________ ____ ___  _____________  __.___.____    .____     
-\______   \    |   \/   _____/    |/ _|   |    |   |    |    
- |    |  _/    |   /\_____  \|      < |   |    |   |    |    
- |    |   \    |  / /        \    |  \|   |    |___|    |___ 
- |_______ /______/ /_______  / ___|__ \___|_______ \_______ \
-                              \/     \/           \/       \/
-                                                  \/       \/   usbamagb_v04.0               
+ usbamagb_v04.0               
+
+
 
 */
 /*                      
-Buskill USB-A Magnetic breakaway Shell Assembly     
+USB-A Magnetic breakaway Shell Assembly     
 GNU General Public License v3.0 
 Author: Melanie Allen
 */
@@ -18,10 +14,6 @@ Author: Melanie Allen
 
 /*
 Description
-
-BusKill is a Dead Man Switch triggered when a magnetic breakaway is tripped, severing a USB connection. This code creates a 3D printable file for plastic parts needed to create the magnetic breakaway. 
-
-To assemble a BusKill Dead Man Switch cord you will need: a usb-a extension cord, a usb hard drive capable of being attached to a caribiner, a caribiner, the plastic pieces in this file, a usb female port, a usb male, 4 magnets, 4 pogo pins, 4 pogo receptors, wire, 8 screws, and BusKill software. For full BOM, glossary, and assembly instructions, see the files in the repo.
 
 The magnetic breakway consists of a "breakaway" (blue) and a "release" (red). When the magnets on the breakaway and release connect, the pogo pins and pogo receptors meet and establish the USB connection. When the parts are separated, the USB connection is severed.
 
@@ -40,11 +32,6 @@ Assembly: This section allows you to call the modules individually or all at onc
 
 If you're new to openscad, might be helpful to know that numbers representing dimensions are in "mm" units. 
 
-The assembly of the BusKill cord is as follows: (1) attach the caribiner to the usb (2) insert the USB hard drive into the female usb port in the assembled "breakaway" (3) connect the magnets of the "breakaway" to the "release" (4) insert the male usb from the "release" into the female port of the extension cable (5) insert the male end of the usb cable into the computers usb-a port. 
-
-
-docs.buskill.in
-buskill.in
 */
 
 //acknowledgements to BaldGuyDIY for enclosure code
@@ -78,7 +65,7 @@ u_f_d = 5.7; //depth
 
 //pogo parameters
 
-pogo_length=7.6;
+pogo_length=9;
 pogo_diameter=2.8; // pogo thickness
 pogo_distance=1.5; //distance between pins 
 shift=2.1; //distance from pins 
@@ -540,10 +527,7 @@ difference(){
  
 module make_enclosure_r(){
 color("red",.9)translate([40,-20,0]) rotate([0,0,90]) enclosure_r();
- //add logo
-color("black") linear_extrude(2)translate([48,13,0])scale(1.5)rotate([0,0,90])import("Bus.svg"); //option where logo is split
- //color("black")translate([45,11,0])scale(.8)rotate([0,0,90])linear_extrude(2)import("buskill_wordsonly.svg"); //option where logo is not split
-}
+};
 //make_enclosure_r();
 
 
@@ -765,7 +749,6 @@ difference(){
 
 module make_enclosure_b(){
 color("blue",.9)translate([75,-20,0]) rotate([0,0,90]) enclosure_b();
-color("black") translate([80,2.5,.5])linear_extrude(2)rotate([0,0,90])scale(1.5)import("kill.svg"); //for use with split logo option
  
 
 }
