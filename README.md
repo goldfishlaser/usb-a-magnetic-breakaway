@@ -1,6 +1,6 @@
 # usb-a-magnetic-breakaway
 
-This repo is for documenting and providing the design requirements for an open-source USB-A magnetic breakaway connector. This project is a Work In Progress and it welcomes contributors. 
+This repo is for documenting and providing the design requirements for an open-source USB-A magnetic breakaway connector. Originally created to be a solution for BusKill cables. I am no longer directly associated with the Buskill project, but welcome the continued use of these files towards those ends. Perhaps you have another reason you want to quickly magnetically detach a USB? Then here's your thing.  This project is a Work In Progress and it welcomes contributors. 
 
 ##  What's New?
 
@@ -11,7 +11,7 @@ Updates to goldfishlaser Version:
 
 ## What's in this Repo?
 
-This repo contains information about the project, CAD files for the project, and information about a supplier version of the cable. 
+This repo contains full documentation for how to create this gadget. 
 
 This directory contains files for a version built in OpenSCAD by goldfishlaser. It contains documented 3D print files (SCAD and STL), Bill of Materials, and more. See issue#2 for more details.
 
