@@ -11,11 +11,9 @@ Updates to goldfishlaser Version:
 
 ## What's in this Repo?
 
-This repo contains full documentation for how to create this gadget. 
+This repo contains full documentation for how to create this gadget. It contains documented 3D print files (SCAD and STL), Bill of Materials, and more. 
 
-This directory contains files for a version built in OpenSCAD by goldfishlaser. It contains documented 3D print files (SCAD and STL), Bill of Materials, and more. See issue#2 for more details.
-
-![goldfishlaser Version](https://crashxblossom.files.wordpress.com/2023/11/layout2-1.jpg)
+![image](https://github.com/user-attachments/assets/7f38e30d-4601-4f7a-8650-9e1504f894b0)
 
 Part 1 Video Assembly Instructions: https://youtu.be/HxwEmIUqQ7w?si=xajbAuSA-TxbAlxz
 Prototype Assembly Instructions: https://crashxblossom.wordpress.com/2023/07/04/exciting-milestone-in-buskill-usb-a-magnetic-release-open-hardware-project/
