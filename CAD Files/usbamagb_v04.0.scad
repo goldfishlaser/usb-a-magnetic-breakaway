@@ -1,9 +1,5 @@
 /*
-
  usbamagb_v04.0               
-
-
-
 */
 /*                      
 USB-A Magnetic breakaway Shell Assembly     
@@ -330,14 +326,9 @@ module jig(){
 /*********** RELEASE ***********/
 
  //RELEASE FACE
- 
- //variables
-
-
 
 innie_tolerance=.5;         
-     
- face_distance=26.5;  //distance from release face
+face_distance=26.5;  //distance from release face
 
         module releasef(){
  i_x = i_l_h; //base width
@@ -532,7 +523,6 @@ color("red",.9)translate([40,-20,0]) rotate([0,0,90]) enclosure_r();
 
 
 /*********** BREAKAWAY ***********/
- 
 
 //BREAKAWAY FACE
 
